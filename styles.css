@@ -1,15 +1,20 @@
 body {
-  overflow: hidden;
+  background-color: #e0fff0;
+  height: 100vh;
 }
 
 div.main {
-  height: 100vh;
   text-align: center;
-  background-color: #e0fff0;
-  border-style: solid;
-  border-color: #ffcb94;
-  border-width: 2rem;
   padding: 1rem;
+}
+
+.name {
+  color: #ff94ad;
+}
+
+p {
+  padding: 1rem;
+  font-size: 2rem;
 }
 
 img {
@@ -17,16 +22,41 @@ img {
 }
 
 h1 {
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
 }
 
 a {
-    color: black;
-    font-size: 2rem;
-    padding: 1rem;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 a:hover {
     color: #ffb194;
     text-decoration: none;
+}
+
+/* Mobile Styling */
+@media only screen
+and (max-device-width: 600px)
+{
+   img {
+     padding: 4rem;
+   }
+
+   h1 {
+     font-size: 10rem;
+   }
+
+   p {
+     padding: 2.5rem;
+     font-size: 4rem;
+   }
+
+   a {
+     font-size: 6rem;
+     padding: 2.5rem;
+   }
 }
