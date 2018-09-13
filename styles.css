@@ -1,15 +1,19 @@
 body {
-  background-color: #e0fff0;
+  background-color: #e5f9f0;
   height: 100vh;
+}
+
+div.container {
+  align-content: center;
+  width: 75vw;
 }
 
 div.main {
   text-align: center;
-  padding: 1rem;
 }
 
 .name {
-  color: #ff94ad;
+  color: #cf205c;
 }
 
 p {
@@ -27,8 +31,11 @@ h1 {
 }
 
 a {
+  color: #cf205c;
+}
+
+.social a {
   font-family: 'Pacifico', cursive;
-  color: black;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -55,7 +62,7 @@ and (max-device-width: 600px)
      font-size: 4rem;
    }
 
-   a {
+   .social a {
      font-size: 6rem;
      padding: 2.5rem;
    }
