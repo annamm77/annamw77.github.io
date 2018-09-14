@@ -5,11 +5,21 @@ body {
 
 div.container {
   align-content: center;
-  width: 75vw;
+  width: 80vw;
 }
 
 div.main {
   text-align: center;
+}
+
+i.fa-heart {
+  color: #ffb194;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+img {
+  padding: 1rem;
 }
 
 .name {
@@ -19,6 +29,7 @@ div.main {
 p {
   padding: 1rem;
   font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -30,7 +41,7 @@ h1 {
   font-size: 5rem;
 }
 
-a {
+a, a:visited {
   color: #cf205c;
 }
 
@@ -51,6 +62,11 @@ and (max-device-width: 600px)
 {
    img {
      padding: 4rem;
+   }
+
+   i.fa-heart {
+     font-size: 4rem;
+     padding: 2rem;
    }
 
    h1 {
