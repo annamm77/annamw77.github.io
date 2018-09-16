@@ -1,11 +1,12 @@
 body {
-  background-color: #e5f9f0;
+  background-color: #aceccf;
   height: 100vh;
 }
 
 div.container {
-  align-content: center;
+  background-color: #d5f6e7;
   width: 80vw;
+  align-content: center;
 }
 
 div.main {
@@ -13,12 +14,8 @@ div.main {
 }
 
 i.fa-heart {
-  color: #ffb194;
+  color: #21915f;
   font-size: 2rem;
-  padding: 1rem;
-}
-
-img {
   padding: 1rem;
 }
 
@@ -33,6 +30,8 @@ p {
 }
 
 img {
+  width: 25rem;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -47,12 +46,12 @@ a, a:visited {
 
 .social a {
   font-family: 'Pacifico', cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 1rem;
 }
 
 a:hover {
-    color: #ffb194;
+    color: #21915f;
     text-decoration: none;
 }
 
@@ -61,7 +60,7 @@ a:hover {
 and (max-device-width: 600px)
 {
    img {
-     padding: 4rem;
+     width: 30rem;
    }
 
    i.fa-heart {
